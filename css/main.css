@@ -1,0 +1,102 @@
+body{
+    max-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+/*main{
+    background-image: url(/assets/images/fondo_quizmaker.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.img-t{
+    margin-top: -3rem;
+}
+.box-t{
+    margin-top: -2rem;
+}
+.m-t{
+    margin-top: -5rem; 
+}
+.back-opacity{
+    background-color: rgba(11, 128, 128, 0.5);
+    color:#000;
+    margin-top: 2.3%;
+    padding: 10%;
+}
+.input-field input{
+    background-color: white !important;
+    background-color: transparent;
+    border: none;
+    border-bottom: none !important;
+    border-radius: 5px !important;
+    height: 2rem !important;
+}
+.input-field label{
+    top: -.5rem;
+}
+.active{
+    color: #63FFFF !important;
+}
+input:focus{
+    border: 1.3px inset #63FFFF !important;
+}
+div label span{
+    color:white;
+}
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: #12CCCC ;
+}
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    border: 2px solid #12CCCC ;
+}
+.mt-{
+    margin-top: -.2rem;
+}
+.button{
+    background-color: #12CCCC !important;
+    border-radius: 50px !important;
+}
+.button:hover{
+    background-color: #328080 !important;
+}
+hr{
+    background-color: #12CCCC !important; 
+}
+.fb{
+    background-color: #1976d2  !important;
+    font-size: .8rem;
+}
+.fb:hover{
+    background-color: #1565c0  !important;
+}
+.g{
+    background-color: #2196f3   !important; 
+    font-size: .8rem;
+}
+.g:hover{
+    background-color: #1e88e5  !important;
+}
+.color-link:hover{
+    color: #17FFFF;
+}
+.text-footer{
+    color: #328080;
+}
+.mt--{
+    margin-top: -4rem;
+}
+
+
+/*
+@media only screen and //(max-width: 576px) and (min-width: 341px){
+    main{
+        background-image: url(/assets/images/fondo_quizmaker.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}//
+*/
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Open+Sans+Condensed:300|Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Quizmaker</title>
+</head>
+<body>
+    <main class="container-fluid">
+        <div class="row">
+            <!--Registration or login form-->
+            <aside class="col-12">
+                <div class="card back-opacity text-white container-fluid py-3">
+                    <div class="card-body row">
+                        <div class="col-md-12 mb-2 box-t">
+                            <img src="/assets/images/logo_dummy.png" class="img-fluid mb-0 d-md-none" alt="logo-quizMaker">
+                            <h5 class="text-center d-md-none mt-2">Registrate y representa al mundo.</h5>
+                        </div>
+                        <!--Registration form-->
+                        <form action="/views/newUser.html" class="col-md-12">
+                            <div class="input-field col s12 my-2">
+                                <input id="email" type="email" class="validate" required>
+                                <label for="email" class="ml-1">Correo</label>
+                            </div>
+                            <div class="input-field col s12 my-2">
+                                <input id="password" type="password" class="validate" maxlength="16" required>
+                                <label for="password" class="ml-1">Contraseña</label>
+                            </div>
+                            <div class="input-field col s6 my-2">
+                                <!--Tooltip in input-->
+                                <input id="input_text" type="number" min="16" max="99" required data-toggle="tooltip" title="Será nuestro secreto!" />
+                                <label for="input_text" class="ml-1">Edad</label>
+                            </div>
+                            <div class="col s6 my-0">
+                                <label>
+                                    <input name="group1" type="radio" />
+                                    <span>Mujer</span>
+                                </label>
+                                <label>
+                                    <input name="group1" type="radio" />
+                                    <span>Hombre</span>
+                                </label>
+                            </div>
+                            <!--Tooltip in button-->
+                            <button class="btn waves-effect waves-light text-white col-md-12 button" type="submit" name="action" data-toggle="tooltip" title="Estas a un clic de terminar!" >Comienza ahora
+                            </button>
+                        </form>
+                        <div class="col-5 mt-2">
+                            <hr>
+                        </div>
+                        <div class="col-2 mt-2">
+                            <p>o</p>
+                        </div>
+                        <div class="col-5 mt-2">
+                            <hr>
+                        </div>
+                        <!--login form-->
+                        <form action="/views/user.html" class="col-12">
+                            <a class="btn waves-effect waves-light text-white col-12 fb mb-3">
+                                <i class="fab fa-facebook left mb-1"></i>
+                                Inicia con Facebook
+                            </a>
+                            <a class="btn waves-effect waves-light text-white col-12 g">
+                                <i class="fab fa-google left mb-1"></i>
+                                Inicia con Google
+                            </a>
+                            <div class="input-field col s12 mt-4">
+                                <input type="email" class="validate" required>
+                                <label class="ml-1">Correo</label>
+                            </div>
+                            <div class="input-field col s12 mt-0 mb-2">
+                                <input type="password" class="validate" maxlength="16" required>
+                                <label class="ml-1">Contraseña</label>
+                                <small ><a href="" class="text-white">¿Olvidaste tu contraseña?</a></small>
+                            </div>
+                            <!--Button XL-->
+                            <button class="btn waves-effect waves-light text-white offset-3 col-9 button">Comienzar
+                            </button>
+                        </form>
+                        <small class="col-12 text-center mt-3">
+                                ¿Eres empresa?  <a href=""><b class="color-link"> Inicia sesión</b></a>
+                        </small>
+                        <small class="col-12 text-center mt-3">
+                            Al continuar, aceptas las <a href="/views/condicionesDeServicio.html" class="text-white"><b>Condiciones del servicio</b></a> y la <a href="/views/politicaDePrivacidad.html" class="text-white"><b>Política de privacidad</b></a> de QuizMaker.
+                        </small>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+               
+    <script src="https://kit.fontawesome.com/9e6f4b19a0.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.back-opacity{
+    background-color: rgba(11, 128, 128, 0.5);
+    color:#000;
+    padding: 10%;
+}
+.mt-nav-img{
+    margin-top: -5rem;
+    margin-left: -1rem;
+}
+body{
+    color: #0B8080;
+}

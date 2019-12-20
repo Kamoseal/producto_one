@@ -1,0 +1,86 @@
+.back-opacity{
+    background-color: #85BFBF;
+}
+.mt-nav-img{
+    margin-top: -2rem;
+}
+body{
+    color: #328080;
+    font-family: 'Poppins', sans-serif;
+}
+.i-p{
+    margin-top: -.7rem;
+}
+i{
+    color: #0B8080;
+}
+.btn:active{
+    background-color: #12CCCC !important;
+    color: white !important;
+    font-weight: 900;
+    
+}
+.btn:hover{
+    background-color: #12CCCC;
+    color: white !important;
+    font-weight: 900;
+}
+.button{
+    background-color: #12CCCC !important;
+    border-radius: 50px !important;
+}
+.button:hover{
+    background-color: #328080 !important;
+}
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: #12CCCC;
+}
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    border: 2px solid #12CCCC;
+}
+/*Input button before*/
+.yes-no[type="radio"]:not(:checked)+span:before, .yes-no[type="radio"]:not(:checked)+span:after {
+    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+}
+
+/*Input button after*/
+.yes-no[type="radio"]:checked+span:after,  .yes-no[type="radio"].with-gap:checked+span:after {
+    background-color: #12CCCC;
+    color: white !important;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+.yes-no[type="radio"].with-gap:checked+span:before{
+    background-color: #12CCCC;
+    color: white !important;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px; 
+}
+.pt-sn{
+    padding-top: .4rem;
+}
+#like{
+    position: relative;
+    -webkit-animation-name: like; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: like;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes like {
+    0%   {left:0px; top:100vh;}
+    100% {left:0px; top:0px;}
+  }
+  
+  /* Standard syntax */
+  @keyframes like {
+    0%   {left:0px; top:100vh;}
+    100%  {left:0px; top:0px;}
+
+  }
